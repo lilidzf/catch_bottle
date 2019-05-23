@@ -1,0 +1,8 @@
+prefix=/home/dzf/catch_bottle-master/cmake-build-debug/devel
+
+Name: catch_control
+Description: Description of catch_control
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/dzf/catch_bottle-master/cmake-build-debug/devel/lib 
+Requires: robotiq_85_msgs

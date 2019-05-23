@@ -1,0 +1,8 @@
+prefix=/home/dzf/catch_bottle-master/cmake-build-debug/devel
+
+Name: cortex_bridge
+Description: Description of cortex_bridge
+Version: 0.0.0
+Cflags: -I/home/dzf/catch_bottle-master/cmake-build-debug/devel/include
+Libs: -L/home/dzf/catch_bottle-master/cmake-build-debug/devel/lib 
+Requires: message_runtime

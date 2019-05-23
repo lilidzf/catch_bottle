@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: catch_control
+Description: Description of catch_control
+Version: 0.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: robotiq_85_msgs

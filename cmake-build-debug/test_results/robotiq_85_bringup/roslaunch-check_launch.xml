@@ -1,0 +1,1 @@
+<testsuite errors="0" failures="0" name="roslaunch-check_launch.xml" tests="1" time="1"><testcase classname="roslaunch.RoslaunchCheck" name="robotiq_85_bringup_launch" status="run" time="1" /></testsuite>

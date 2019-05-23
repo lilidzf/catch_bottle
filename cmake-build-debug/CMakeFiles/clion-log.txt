@@ -1,0 +1,119 @@
+/media/dzf/0fcf0806-8867-4dce-88b4-9a653d796230/dzf/clion-2019.1.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/dzf/catch_bottle-master
+-- Using CATKIN_DEVEL_PREFIX: /home/dzf/catch_bottle-master/cmake-build-debug/devel
+-- Using CMAKE_PREFIX_PATH: /home/dzf/screw_bolt/src/cmake-build-debug/devel;/home/dzf/catch_bottle-master/cmake-build-debug/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/dzf/screw_bolt/src/cmake-build-debug/devel;/home/dzf/catch_bottle-master/cmake-build-debug/devel;/opt/ros/kinetic
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/dzf/catch_bottle-master/cmake-build-debug/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- BUILD_SHARED_LIBS is on
+WARNING: Package name "UR5e_robotiq_moveit_config" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+WARNING: Package name "UR5e_robotiq_moveit_config" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 27 packages in topological order:
+-- ~~  - robotiq_85_driver
+-- ~~  - robotiq_85_gripper (metapackage)
+-- ~~  - universal_robot (metapackage)
+-- ~~  - ur_description
+-- ~~  - ur_e_description
+-- ~~  - ur_msgs
+-- ~~  - cortex_bridge
+-- ~~  - robotiq_85_bringup
+-- ~~  - robotiq_85_description
+-- ~~  - robotiq_85_msgs
+-- ~~  - si_utils
+-- ~~  - ur_bringup
+-- ~~  - ur_driver
+-- ~~  - ur_e_gazebo
+-- ~~  - ur_gazebo
+-- ~~  - ur_modern_driver
+-- ~~  - ur5e_robot_ikfast_manipulator_plugin
+-- ~~  - ur_kinematics
+-- ~~  - catch_control
+-- ~~  - UR5e_robotiq_moveit_config
+-- ~~  - robotiq_85_moveit_config
+-- ~~  - ur10_e_moveit_config
+-- ~~  - ur10_moveit_config
+-- ~~  - ur3_e_moveit_config
+-- ~~  - ur3_moveit_config
+-- ~~  - ur5_e_moveit_config
+-- ~~  - ur5_moveit_config
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'robotiq_85_driver'
+-- ==> add_subdirectory(robotiq_85_gripper-master/robotiq_85_driver)
+-- +++ processing catkin metapackage: 'robotiq_85_gripper'
+-- ==> add_subdirectory(robotiq_85_gripper-master/robotiq_85_gripper)
+-- +++ processing catkin metapackage: 'universal_robot'
+-- ==> add_subdirectory(universal_robot-ur_e/universal_robot)
+-- +++ processing catkin package: 'ur_description'
+-- ==> add_subdirectory(universal_robot-ur_e/ur_description)
+-- +++ processing catkin package: 'ur_e_description'
+-- ==> add_subdirectory(universal_robot-ur_e/ur_e_description)
+-- +++ processing catkin package: 'ur_msgs'
+-- ==> add_subdirectory(universal_robot-ur_e/ur_msgs)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- ur_msgs: 6 messages, 2 services
+-- +++ processing catkin package: 'cortex_bridge'
+-- ==> add_subdirectory(cortex_bridge)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- cortex_bridge: 2 messages, 1 services
+-- +++ processing catkin package: 'robotiq_85_bringup'
+-- ==> add_subdirectory(robotiq_85_gripper-master/robotiq_85_bringup)
+-- +++ processing catkin package: 'robotiq_85_description'
+-- ==> add_subdirectory(robotiq_85_gripper-master/robotiq_85_description)
+-- +++ processing catkin package: 'robotiq_85_msgs'
+-- ==> add_subdirectory(robotiq_85_gripper-master/robotiq_85_msgs)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- robotiq_85_msgs: 2 messages, 0 services
+-- +++ processing catkin package: 'si_utils'
+-- ==> add_subdirectory(robotiq_85_gripper-master/si_utils)
+-- +++ processing catkin package: 'ur_bringup'
+-- ==> add_subdirectory(universal_robot-ur_e/ur_bringup)
+-- +++ processing catkin package: 'ur_driver'
+-- ==> add_subdirectory(universal_robot-ur_e/ur_driver)
+-- +++ processing catkin package: 'ur_e_gazebo'
+-- ==> add_subdirectory(universal_robot-ur_e/ur_e_gazebo)
+-- +++ processing catkin package: 'ur_gazebo'
+-- ==> add_subdirectory(universal_robot-ur_e/ur_gazebo)
+-- +++ processing catkin package: 'ur_modern_driver'
+-- ==> add_subdirectory(ur_modern_driver)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- +++ processing catkin package: 'ur5e_robot_ikfast_manipulator_plugin'
+-- ==> add_subdirectory(ur5e_robot_ikfast_manipulator_plugin)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- A library with LAPACK API found.
+-- +++ processing catkin package: 'ur_kinematics'
+-- ==> add_subdirectory(universal_robot-ur_e/ur_kinematics)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   system
+-- +++ processing catkin package: 'catch_control'
+-- ==> add_subdirectory(catch_control)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- +++ processing catkin package: 'UR5e_robotiq_moveit_config'
+-- ==> add_subdirectory(UR5e_robotiq_moveit_config)
+WARNING: Package name "UR5e_robotiq_moveit_config" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+-- +++ processing catkin package: 'robotiq_85_moveit_config'
+-- ==> add_subdirectory(robotiq_85_gripper-master/robotiq_85_moveit_config)
+-- +++ processing catkin package: 'ur10_e_moveit_config'
+-- ==> add_subdirectory(universal_robot-ur_e/ur10_e_moveit_config)
+-- +++ processing catkin package: 'ur10_moveit_config'
+-- ==> add_subdirectory(universal_robot-ur_e/ur10_moveit_config)
+-- +++ processing catkin package: 'ur3_e_moveit_config'
+-- ==> add_subdirectory(universal_robot-ur_e/ur3_e_moveit_config)
+-- +++ processing catkin package: 'ur3_moveit_config'
+-- ==> add_subdirectory(universal_robot-ur_e/ur3_moveit_config)
+-- +++ processing catkin package: 'ur5_e_moveit_config'
+-- ==> add_subdirectory(universal_robot-ur_e/ur5_e_moveit_config)
+-- +++ processing catkin package: 'ur5_moveit_config'
+-- ==> add_subdirectory(universal_robot-ur_e/ur5_moveit_config)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dzf/catch_bottle-master/cmake-build-debug

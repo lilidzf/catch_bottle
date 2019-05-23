@@ -1,0 +1,3 @@
+bottle_x_y_z: [0.2, 0, 0.868]
+bottle_height: 0.055
+gripper_z: 1.045

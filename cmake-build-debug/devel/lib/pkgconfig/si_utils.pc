@@ -1,0 +1,8 @@
+prefix=/home/dzf/catch_bottle-master/cmake-build-debug/devel
+
+Name: si_utils
+Description: Description of si_utils
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/dzf/catch_bottle-master/cmake-build-debug/devel/lib 
+Requires: 

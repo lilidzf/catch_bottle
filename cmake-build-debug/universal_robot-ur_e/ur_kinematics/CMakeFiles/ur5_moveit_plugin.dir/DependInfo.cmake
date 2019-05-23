@@ -1,0 +1,34 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/dzf/catch_bottle-master/universal_robot-ur_e/ur_kinematics/src/ur_moveit_plugin.cpp" "/home/dzf/catch_bottle-master/cmake-build-debug/universal_robot-ur_e/ur_kinematics/CMakeFiles/ur5_moveit_plugin.dir/src/ur_moveit_plugin.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "ROSCONSOLE_BACKEND_LOG4CXX"
+  "ROS_BUILD_SHARED_LIBS=1"
+  "ROS_PACKAGE_NAME=\"ur_kinematics\""
+  "UR5_PARAMS"
+  "ur5_moveit_plugin_EXPORTS"
+  )
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../universal_robot-ur_e/ur_kinematics/include"
+  "/opt/ros/kinetic/include"
+  "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+  "/usr/include/eigen3"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/dzf/catch_bottle-master/cmake-build-debug/universal_robot-ur_e/ur_kinematics/CMakeFiles/ur5_kin.dir/DependInfo.cmake"
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

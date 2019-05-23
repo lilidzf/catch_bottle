@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: ur_modern_driver
+Description: Description of ur_modern_driver
+Version: 0.1.0
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib -lur_hardware_interface
+Requires: actionlib control_msgs controller_manager geometry_msgs hardware_interface industrial_msgs roscpp sensor_msgs trajectory_msgs ur_msgs
